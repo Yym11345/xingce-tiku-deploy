@@ -1,0 +1,14 @@
+# 账号库 / 运行时数据（不要提交）
+.data/
+*.db
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
+Thumbs.db
+node_modules/

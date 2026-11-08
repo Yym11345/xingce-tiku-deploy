@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>行测真题库 · 2016–2026</title>
+<meta name="description" content="本地离线行测真题库，58,890 题 / 515 套卷" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%233b6cf6'/><text x='50' y='70' font-size='58' font-family='sans-serif' text-anchor='middle' fill='white'>行</text></svg>" />
+<link rel="stylesheet" href="assets/app.css" />
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <a class="brand" href="#/home">
+      <span class="brand-mark">行</span>
+      <span class="brand-txt"><b>行测真题库</b><i>2016–2026 · 58,890 题</i></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#/home" data-r="home"><span class="ic">◎</span><b class="full">首页</b><b class="mini">首页</b></a>
+      <a href="#/papers" data-r="papers"><span class="ic">▤</span><b class="full">套卷练习</b><b class="mini">套卷</b></a>
+      <a href="#/drill" data-r="drill"><span class="ic">✎</span><b class="full">专项练习</b><b class="mini">专项</b></a>
+      <a href="#/kp" data-r="kp"><span class="ic">◈</span><b class="full">考点地图</b><b class="mini">考点</b></a>
+      <a href="#/wrong" data-r="wrong"><span class="ic">✗</span><b class="full">错题本</b><b class="mini">错题</b><em id="nWrong"></em></a>
+      <a href="#/star" data-r="star"><span class="ic">★</span><b class="full">收藏</b><b class="mini">收藏</b><em id="nStar"></em></a>
+      <a href="#/stats" data-r="stats"><span class="ic">◔</span><b class="full">学习统计</b><b class="mini">统计</b></a>
+      <a href="#/account" data-r="account"><span class="ic">◍</span><b class="full">我的</b><b class="mini">我的</b></a>
+    </nav>
+    <div class="side-foot">
+      <div id="acct"></div>
+      <div id="sideProg"></div>
+      <p class="hint" id="sideHint">数据全部本地，断网可用</p>
+    </div>
+  </aside>
+  <main id="view" class="view"></main>
+</div>
+<div id="toast" class="toast"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>
