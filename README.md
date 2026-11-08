@@ -3,7 +3,10 @@
 > 2016–2026 公务员行测真题，**515 套卷 / 58,890 题**，含官方解析与全部配图，纯静态、无框架、无构建步骤，
 > 克隆下来就能跑，也可以直接丢给任意静态托管。
 
-在线演示：<https://xingce-tiku.apps.workbuddy.host/?sharecode=UREIK6GW6A>
+在线演示：
+
+- GitHub Pages（纯静态，无需登录）：<https://yym11345.github.io/xingce-tiku-deploy/>
+- 带账号系统（用户名密码登录 + 云端同步）：<https://xingce-tiku.apps.workbuddy.host/?sharecode=UREIK6GW6A>
 
 ---
 
